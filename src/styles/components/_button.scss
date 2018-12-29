@@ -1,0 +1,42 @@
+.button {
+  background: $blue;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+}
+
+.button--link {
+  background: none;
+}
+
+.button--link-blue {
+  color: $blue;
+  background: none;
+}
+
+.button--link-hide {
+  display: none;
+}
+
+.button--secondary {
+  background: #888;
+}
+
+.button--with-margin {
+  margin-bottom: 20px;
+}
+
+.button--with-s-margin {
+  @extend .button;
+  margin: $s-size;
+}
+
+.button--with-m-margin {
+  @extend .button;
+  margin: $m-size;
+}
